@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="4.1">
+    <Ad>
+        <InLine>
+            <AdSystem>
+                <![CDATA[ Ogury Admin Adserver ]]>
+            </AdSystem>
+            <Error>
+                <![CDATA[ https://vtrk.doubleverify.com/?v=1&t=event&tid=ZW-12000000&ec=vast&cid=96fb24eb-3c28-4b2d-8361-c73a3a041a3b&el=https%3A%2F%2Fmedias.presage.io%2Fmedias%2Fvideos%2Fe1089815-39b7-4f1f-b493-62b6c21bc19d.mp4-transcoded%2FAdCert-DV-mweb-certification-VAST.xml&ea=error&cm114=1&cm115=16&cd101=vast&cd102=src&cd111=inline&cd112=unwrapped&cd117=2&cd170=166&cd188=CDG&cd189=cloudflare&cd190=818052&cd191=DV155764&cd192=20220107&cd193=2022010701&cd196=1&cd141=2&cd142=%5BTIMESTAMP%5D&cd143=[TIMESTAMP]&cd10=[ERRORCODE]&z=[CACHEBUSTING]&redir=https://tpsc-video-eu.doubleverify.com/visit.jpg?ctx=818052&cmp=DV024064&sid=1234&plc=1234&advid=818053&crt=vastError&vasttrkevt=impression&dvp_ctx=818052&dvp_cmp=DV155764&dvp_sid=20220107&dvp_plc=2022010701&tagtype=video&adsrv=166&dup=96fb24eb-3c28-4b2d-8361-c73a3a041a3b&dvtagver=dvot_2024-02-08_6da4bc81a_45ec3c9&vmftype=video&dvp_cfbs=99&dvp_infra=cloudflare&dvp_zjsver=0.21.19&apifw=2&vstvr=4.1-i&essd=[SERVERSIDE]&dvp_media=1&dvp_psf=0&verr=[ERRORCODE] ]]>
+            </Error>
+            <Impression>
+                <![CDATA[ https://ad.doubleclick.net/ddm/trackimp/N1505470.4068858OGURY-TEST-01/B27100662.325512840;dc_trk_aid=517879078;dc_trk_cid=164446856;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=?" BORDER="0" HEIGHT="1" WIDTH="1" ALT="Advertisement" ]]>
+            </Impression>
+            <Impression>
+                <![CDATA[ https://tpsc-video-eu.doubleverify.com/visit.jpg?vstevt=2&tagtype=video&ctx=818052&cmp=DV155764&sid=20220107&plc=2022010701&adsrv=166&dup=96fb24eb-3c28-4b2d-8361-c73a3a041a3b&dvtagver=dvot_2024-02-08_6da4bc81a_45ec3c9&vad=15000&vmftype=video&dvp_cfbs=99&dvp_infra=cloudflare&dvp_zjsver=0.21.19&apifw=2&vstvr=4.1-i&dvp_media=1&dvp_psf=0&app=[APPBUNDLE]&essd=[SERVERSIDE] ]]>
+            </Impression>
+            <Impression>
+                <![CDATA[ https://vtrk.doubleverify.com/?v=1&t=event&tid=ZW-12000000&ec=vast&cid=96fb24eb-3c28-4b2d-8361-c73a3a041a3b&el=https%3A%2F%2Fmedias.presage.io%2Fmedias%2Fvideos%2Fe1089815-39b7-4f1f-b493-62b6c21bc19d.mp4-transcoded%2FAdCert-DV-mweb-certification-VAST.xml&ea=impression&cm114=1&cm115=16&cd101=vast&cd102=src&cd111=inline&cd112=unwrapped&cd117=2&cd170=166&cd188=CDG&cd189=cloudflare&cd190=818052&cd191=DV155764&cd192=20220107&cd193=2022010701&cd196=1&cd141=2&cd142=%5BTIMESTAMP%5D&cd143=[TIMESTAMP]&z=[CACHEBUSTING] ]]>
+            </Impression>
+            <AdTitle>
+                <![CDATA[ AdCert DV mweb certification VAST ]]>
+            </AdTitle>
+            <AdVerifications>
+                <Verification vendor="doubleverify.com-omid">
+                    <JavaScriptResource apiFramework="omid" browserOptional="true">
+                        <![CDATA[ https://cdn.doubleverify.com/dvtp_src.js#vendor_key=doubleverify.com-omid ]]>
+                    </JavaScriptResource>
+                    <TrackingEvents>
+                        <Tracking event="verificationNotExecuted">
+                            <![CDATA[ https://tpsc-video-eu.doubleverify.com/visit.jpg?verr=[REASON]&tagtype=video&ctx=818052&cmp=DV064005&sid=123&plc=verificationRejection&advid=818053&crt=omidVerificationNotExecuted&dvtagver=dvot_2024-02-08_6da4bc81a_45ec3c9&vasttrkevt=impression&dvp_ctx=818052&dvp_cmp=DV155764&dvp_sid=20220107&dvp_plc=2022010701&adsrv=166&dup=96fb24eb-3c28-4b2d-8361-c73a3a041a3b&vmftype=video&dvp_cfbs=99&dvp_infra=cloudflare&dvp_zjsver=0.21.19&apifw=2&vstvr=4.1-i&dvp_media=1&dvp_psf=0 ]]>
+                        </Tracking>
+                    </TrackingEvents>
+                    <VerificationParameters>
+                        <![CDATA[ tagtype=video&msrapi=jsOmid&ctx=818052&cmp=DV155764&sid=20220107&plc=2022010701&adsrv=166&dup=96fb24eb-3c28-4b2d-8361-c73a3a041a3b&dvtagver=dvot_2024-02-08_6da4bc81a_45ec3c9&blk=0&mon=1&dvp_cfbs=99&dvp_infra=cloudflare&dvp_zjsver=0.21.19&apifw=2&vstvr=4.1-i&dvp_media=1&dvp_psf=0&vidreg=eu&vmftype=video ]]>
+                    </VerificationParameters>
+                </Verification>
+            </AdVerifications>
+            <Creatives>
+                <Creative>
+                    <UniversalAdId idRegistry="unknown">
+                        <![CDATA[ unknown ]]>
+                    </UniversalAdId>
+                    <Linear>
+                        <TrackingEvents>
+                            <Tracking event="firstQuartile">
+                                <![CDATA[ https://tpsc-video-eu.doubleverify.com/event.png?vstevt=4&dup=96fb24eb-3c28-4b2d-8361-c73a3a041a3b ]]>
+                            </Tracking>
+                            <Tracking event="midpoint">
+                                <![CDATA[ https://tpsc-video-eu.doubleverify.com/event.png?vstevt=6&dup=96fb24eb-3c28-4b2d-8361-c73a3a041a3b ]]>
+                            </Tracking>
+                            <Tracking event="thirdQuartile">
+                                <![CDATA[ https://tpsc-video-eu.doubleverify.com/event.png?vstevt=8&dup=96fb24eb-3c28-4b2d-8361-c73a3a041a3b ]]>
+                            </Tracking>
+                            <Tracking event="complete">
+                                <![CDATA[ https://tpsc-video-eu.doubleverify.com/event.png?vstevt=10&dup=96fb24eb-3c28-4b2d-8361-c73a3a041a3b ]]>
+                            </Tracking>
+                            <Tracking event="start">
+                                <![CDATA[ https://tpsc-video-eu.doubleverify.com/event.png?vstevt=0&dup=96fb24eb-3c28-4b2d-8361-c73a3a041a3b ]]>
+                            </Tracking>
+                            <Tracking event="skip">
+                                <![CDATA[ https://tpsc-video-eu.doubleverify.com/event.png?vstevt=21&dup=96fb24eb-3c28-4b2d-8361-c73a3a041a3b ]]>
+                            </Tracking>
+                            <Tracking event="pause">
+                                <![CDATA[ https://tpsc-video-eu.doubleverify.com/event.png?vstevt=22&dup=96fb24eb-3c28-4b2d-8361-c73a3a041a3b ]]>
+                            </Tracking>
+                            <Tracking event="resume">
+                                <![CDATA[ https://tpsc-video-eu.doubleverify.com/event.png?vstevt=23&dup=96fb24eb-3c28-4b2d-8361-c73a3a041a3b ]]>
+                            </Tracking>
+                            <Tracking event="mute">
+                                <![CDATA[ https://tpsc-video-eu.doubleverify.com/event.png?vstevt=30&dup=96fb24eb-3c28-4b2d-8361-c73a3a041a3b ]]>
+                            </Tracking>
+                            <Tracking event="unmute">
+                                <![CDATA[ https://tpsc-video-eu.doubleverify.com/event.png?vstevt=31&dup=96fb24eb-3c28-4b2d-8361-c73a3a041a3b ]]>
+                            </Tracking>
+                            <Tracking event="complete">
+                                <![CDATA[ https://vtrk.doubleverify.com/?v=1&t=event&tid=ZW-12000000&ec=vast&cid=96fb24eb-3c28-4b2d-8361-c73a3a041a3b&el=https%3A%2F%2Fmedias.presage.io%2Fmedias%2Fvideos%2Fe1089815-39b7-4f1f-b493-62b6c21bc19d.mp4-transcoded%2FAdCert-DV-mweb-certification-VAST.xml&ea=complete&cm114=1&cm115=16&cd101=vast&cd102=src&cd111=inline&cd112=unwrapped&cd117=2&cd170=166&cd188=CDG&cd189=cloudflare&cd190=818052&cd191=DV155764&cd192=20220107&cd193=2022010701&cd196=1&cd141=2&cd142=%5BTIMESTAMP%5D&cd143=[TIMESTAMP]&z=[CACHEBUSTING] ]]>
+                            </Tracking>
+                        </TrackingEvents>
+                        <Duration>
+                            <![CDATA[ 00:00:15 ]]>
+                        </Duration>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" bitrate="720" width="640" height="360" type="video/mp4">
+                                <![CDATA[ https://medias.presage.io/medias/videos/e1089815-39b7-4f1f-b493-62b6c21bc19d.mp4-transcoded/video_360p.mp4 ]]>
+                            </MediaFile>
+                            <MediaFile delivery="progressive" bitrate="1200" width="854" height="480" type="video/mp4">
+                                <![CDATA[ https://medias.presage.io/medias/videos/e1089815-39b7-4f1f-b493-62b6c21bc19d.mp4-transcoded/video_480p.mp4 ]]>
+                            </MediaFile>
+                            <MediaFile delivery="progressive" bitrate="2400" width="1080" height="608" type="video/mp4">
+                                <![CDATA[ https://medias.presage.io/medias/videos/e1089815-39b7-4f1f-b493-62b6c21bc19d.mp4-transcoded/video_720p.mp4 ]]>
+                            </MediaFile>
+                            <MediaFile delivery="progressive" bitrate="5400" width="1080" height="608" type="video/mp4">
+                                <![CDATA[ https://medias.presage.io/medias/videos/e1089815-39b7-4f1f-b493-62b6c21bc19d.mp4-transcoded/video_1080p.mp4 ]]>
+                            </MediaFile>
+                            <MediaFile delivery="progressive" bitrate="97" width="256" height="144" type="application/x-mpegURL">
+                                <![CDATA[ https://medias.presage.io/medias/videos/e1089815-39b7-4f1f-b493-62b6c21bc19d.mp4-transcoded/playlist.m3u8 ]]>
+                            </MediaFile>
+                        </MediaFiles>
+                        <VideoClicks>
+                            <ClickTracking>
+                                <![CDATA[ https://vtrk.doubleverify.com/?v=1&t=event&tid=ZW-12000000&ec=vast&cid=96fb24eb-3c28-4b2d-8361-c73a3a041a3b&el=https%3A%2F%2Fmedias.presage.io%2Fmedias%2Fvideos%2Fe1089815-39b7-4f1f-b493-62b6c21bc19d.mp4-transcoded%2FAdCert-DV-mweb-certification-VAST.xml&ea=click&cm114=1&cm115=16&cd101=vast&cd102=src&cd111=inline&cd112=unwrapped&cd117=2&cd170=166&cd188=CDG&cd189=cloudflare&cd190=818052&cd191=DV155764&cd192=20220107&cd193=2022010701&cd196=1&cd141=2&cd142=%5BTIMESTAMP%5D&cd143=[TIMESTAMP]&z=[CACHEBUSTING] ]]>
+                            </ClickTracking>
+                            <ClickThrough>
+                                <![CDATA[ https://ad.doubleclick.net/ddm/trackclk/N1505470.4068858OGURY-TEST-01/B27100662.325512840;dc_trk_aid=517879078;dc_trk_cid=164446856;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd= ]]>
+                            </ClickThrough>
+                        </VideoClicks>
+                    </Linear>
+                </Creative>
+            </Creatives>
+            <ViewableImpression id="SMART AdServer">
+                <Viewable><![CDATA[http://localhost:3090/ViewableImpressionOnViewable]]></Viewable>
+                <ViewUndetermined><![CDATA[http://localhost:3090/ViewableImpressionOnNotViewable]]></ViewUndetermined>
+            </ViewableImpression>
+            <Description>
+                <![CDATA[ AdCert DV mweb certification VAST ]]>
+            </Description>
+        </InLine>
+    </Ad>
+</VAST>
