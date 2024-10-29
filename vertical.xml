@@ -1,28 +1,22 @@
-<VAST version="2.0">
-  <Ad id="static">
+<VAST xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:noNamespaceSchemaLocation="vast.xsd">
+  <Ad id="5063112-3227066">
     <InLine>
-      <AdSystem>Static VAST Template</AdSystem>
-      <AdTitle>Static VAST Tag</AdTitle>
+      <AdSystem>OGY</AdSystem>
+      <AdTitle>TestG</AdTitle>
+      <Description>2020-11-09 13:27:26</Description>
       <Creatives>
-        <Creative>
+        <Creative sequence="1" AdID="3227066" id="3227066">
           <Linear>
             <Duration>00:00:10</Duration>
-            <VideoClicks>
-              <ClickThrough>http://www.jwplayer.com/</ClickThrough>
-            </VideoClicks>
             <MediaFiles>
               <MediaFile type="video/mp4" bitrate="300" width="540" height="960">
                 https://medias.devc.cloud.ogury.io/medias/videos/e8555ec6-1939-4347-b469-878878f9791c.mp4
               </MediaFile>
             </MediaFiles>
-            <Icons>
-              <Icon program="AdChoices" height="16" width="16" xPosition="right" yPosition="top">
-                <StaticResource creativeType="image/png">
-                  https://example.com/adchoices-sm.png
-                </StaticResource>
-              </Icon>
-            </Icons>
-           </Linear>
+          </Linear>
+        </Creative>
+        <Creative sequence="1">
+          <CompanionAds/>
         </Creative>
       </Creatives>
     </InLine>
