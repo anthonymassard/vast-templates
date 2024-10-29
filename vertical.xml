@@ -20,9 +20,6 @@
                 <StaticResource creativeType="image/png">
                   https://example.com/adchoices-sm.png
                 </StaticResource>
-                <Iconclicks>
-                  <IconClickThrough>https://sample-url.com</IconClickThrough>
-                </IconClicks>
               </Icon>
             </Icons>
            </Linear>
