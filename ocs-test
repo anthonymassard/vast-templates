@@ -1,4 +1,9 @@
-<img id="xp" motionly-params=""/>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    </head>
+<body>
+    <img id="xp" motionly-params=""/>
 <script>
 (function() {
     var motionlyParams = {
@@ -29,3 +34,7 @@
     }
 })();
 </script>
+
+</body>
+</html>
+
