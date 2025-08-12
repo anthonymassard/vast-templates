@@ -1,0 +1,31 @@
+<img id="xp" motionly-params=""/>
+<script>
+(function() {
+    var motionlyParams = {
+        siteId:"1079362",
+        variables: {
+            tag_version:2,
+            macros: {
+                campaignid:"[campaignid]",
+                advert_id:"[advert_id]",
+                creative_id:"[creative_id]",
+                apikey:"[apikey]",
+                page:"[page]",
+                app_bundle:"[app_bundle]",
+                sdk:"[sdk]",
+                external_app_exchange:"[external_app_exchange]",
+                creative_size:"[creative_size]",
+                gdpr:"${GDPR}",
+                gdpr_consent:"${GDPR_CONSENT_31}"
+            }
+        }
+    };
+    var xpElement=document.getElementById("xp");
+    if (xpElement !== null && xpElement.hasAttribute("motionly-params")) {
+        xpElement.setAttribute("motionly-params", JSON.stringify(motionlyParams));
+        var motionlySDK=document.createElement("script");
+        motionlySDK.src="https://f.motionly.presage.io/javascript/1/sdk/?customerId=ogury&applicationId=callbacks";
+        xpElement.parentNode.insertBefore(motionlySDK, xpElement.nextSibling);
+    }
+})();
+</script>
